@@ -1,1 +1,2 @@
-export 'package:productuis/productUis/product_one.dart';
+export './product_one.dart';
+export '../flashApp/screens/welcome_screen.dart';
