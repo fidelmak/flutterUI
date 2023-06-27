@@ -11,14 +11,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Product UIs',
-      theme: ThemeData(
-        // backgroundColor: const Color.fromARGB(255, 43, 41, 41),
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: product_one(),
-    );
+        debugShowCheckedModeBanner: false,
+        title: 'Product UIs',
+        theme: ThemeData(
+          // backgroundColor: const Color.fromARGB(255, 43, 41, 41),
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          useMaterial3: true,
+        ),
+        home: WelcomeScreen() //product_one(),
+        );
   }
 }
